@@ -30,13 +30,14 @@ release = 'V1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+
+master_doc = 'index.rst'
+
 extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-master_doc = ['index']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
